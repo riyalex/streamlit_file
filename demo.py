@@ -25,17 +25,7 @@ if prompt := st.chat_input("What is up?"):
     # Add assistant response to chat history
     st.session_state.messages.append({"role": "assistant", "content": response})
 
-# Define CSS styles to change background color
-#css = """
-#<style>
-#body {
-#    background-color: #008000;
-#}
-#</style>
-#"""
 
-# Render CSS styles using st.markdown
-#st.markdown(css, unsafe_allow_html=True)
 
 
 
